@@ -1,0 +1,338 @@
+.workers
+    &__title
+        padding-top: 300px
+        font-family: 'Playfair Display Bold'
+        text-align: center
+        font-size: 45px
+        line-height: 55px
+        letter-spacing: 0.07em
+        text-indent: 1px
+        color: black
+        margin-bottom: 45px
+        @media (max-width: 767px)
+            padding-top: 30px
+            font-size: 25px
+            line-height: 27px
+            margin-bottom: 25px
+    &__subtitle
+        font-family: "Roboto"
+        font-size: 22px
+        line-height: 26px
+        text-align: center
+        letter-spacing: 0.07em
+        text-indent: 1px
+        color: black
+        margin-bottom: 50px
+        @media (max-width: 767px)
+            font-size: 16px
+            line-height: 19px
+    &-block
+        &__area
+            margin-right: 77px
+            text-align: center
+            height: 595px
+            @media (max-width: 767px)
+                margin-right: 0
+            & img
+                width: 440px
+                height: 456px
+                margin-bottom: 25px
+        &__photo
+            display: inline-block
+            width: 260px
+            height: 200px
+            margin-right: 58px
+            margin-bottom: 58px
+            cursor: pointer
+        &__name
+            font-family: "Roboto"
+            font-weight: 700
+            font-size: 22px
+            line-height: 26px
+            text-align: center
+            letter-spacing: 0.07em
+            text-indent: 1px
+            color: black
+            margin-bottom: 15px
+        &__pos
+            font-family: "Roboto"
+            font-size: 18px
+            line-height: 21px
+            text-align: center
+            letter-spacing: 0.07em
+            text-indent: 1px
+            color: black
+            margin-bottom: 15px
+        &__exp
+            font-family: "Roboto"
+            font-size: 18px
+            line-height: 21px
+            text-align: center
+            letter-spacing: 0.07em
+            text-indent: 1px
+            color: black
+            margin-bottom: 66px
+            @media (max-width: 767px)
+                margin-bottom: 10px
+    &-swiper-mobile
+        & img
+            width: 265px
+            height: 275px
+            display: block
+            margin: 0 auto
+            margin-bottom: 20px
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction
+    bottom: 90px
+    left: -5px
+    width: 100%
+    @media (max-width: 767px)
+        bottom: 10px
+.swiper-pagination-bullet
+    width: 20px
+    height: 20px
+    background-color: #fff
+    border: 1px solid black
+    opacity: 1
+    transition: 0.3s
+.swiper-pagination-bullet-active
+    color:#fff
+    border: 2px solid rgba(123, 150, 48, 0.5)
+.swiper-slide-workers
+    height: 600px
+.swiper-slide-mobile
+    height: 500px
+
+.photo-1
+    background-image: url(../img/workers/worker-default.jpg)
+    background-size: 100% 100%
+    position: relative
+    &::before
+        content: "Брайловская Наталья"
+        position: absolute
+        bottom: 0
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 260px
+        padding: 9px 15px
+        font-family: "Roboto"
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        color: white
+    &::after
+        content: ''
+        opacity: 0
+        transition: 0.3s
+        width: 260px
+        height: 200px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: rgba(0, 0, 0, 0.3)
+    &:hover::after
+        opacity: 1
+.photo-2
+    background-image: url(../img/workers/worker-1.jpg)
+    background-size: 100% 100%
+    margin-right: 0
+    position: relative
+    &::before
+        content: "Юзбашев Владимир"
+        position: absolute
+        bottom: 0
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 260px
+        padding: 9px 15px
+        font-family: "Roboto"
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        color: white
+    &::after
+        content: ''
+        opacity: 0
+        transition: 0.3s
+        width: 260px
+        height: 200px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: rgba(0, 0, 0, 0.3)
+    &:hover::after
+        opacity: 1
+.photo-3
+    background-image: url(../img/workers/worker-3.jpg)
+    background-size: 100% 100%
+    margin-bottom: 0
+    position: relative
+    position: relative
+    &::before
+        content: "Макарова Альбина"
+        position: absolute
+        bottom: 0
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 260px
+        padding: 9px 15px
+        font-family: "Roboto"
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        color: white
+    &::after
+        content: ''
+        opacity: 0
+        transition: 0.3s
+        width: 260px
+        height: 200px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: rgba(0, 0, 0, 0.3)
+    &:hover::after
+        opacity: 1
+.photo-4
+    background-image: url(../img/workers/worker-4.jpg)
+    background-size: 100% 100%
+    margin-right: 0
+    margin-bottom: 0
+    position: relative
+    &::before
+        content: "Молохова Ольга"
+        position: absolute
+        bottom: 0
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 260px
+        padding: 9px 15px
+        font-family: "Roboto"
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        color: white
+    &::after
+        content: ''
+        opacity: 0
+        transition: 0.3s
+        width: 260px
+        height: 200px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: rgba(0, 0, 0, 0.3)
+    &:hover::after
+        opacity: 1
+.photo-5
+    background-image: url(../img/workers/worker-5.jpg)
+    background-size: 100% 100%
+    position: relative
+    &::before
+        content: "Измайлов Максим"
+        position: absolute
+        bottom: 0
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 260px
+        padding: 9px 15px
+        font-family: "Roboto"
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        color: white
+    &::after
+        content: ''
+        opacity: 0
+        transition: 0.3s
+        width: 260px
+        height: 200px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: rgba(0, 0, 0, 0.3)
+    &:hover::after
+        opacity: 1
+.photo-6
+    background-image: url(../img/workers/worker-6.jpg)
+    background-size: 100% 100%
+    margin-right: 0
+    position: relative
+    &::before
+        content: "Шиманович Демьян"
+        position: absolute
+        bottom: 0
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 260px
+        padding: 9px 15px
+        font-family: "Roboto"
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        color: white
+    &::after
+        content: ''
+        opacity: 0
+        transition: 0.3s
+        width: 260px
+        height: 200px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: rgba(0, 0, 0, 0.3)
+    &:hover::after
+        opacity: 1
+.photo-7
+    background-image: url(../img/workers/worker-7.jpg)
+    background-size: 100% 100%
+    margin-bottom: 0
+    position: relative
+    position: relative
+    &::before
+        content: "Прохоров Владислав"
+        position: absolute
+        bottom: 0
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 260px
+        padding: 9px 15px
+        font-family: "Roboto"
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        color: white
+    &::after
+        content: ''
+        opacity: 0
+        transition: 0.3s
+        width: 260px
+        height: 200px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: rgba(0, 0, 0, 0.3)
+    &:hover::after
+        opacity: 1
+.photo-8
+    background-image: url(../img/workers/worker-8.jpg)
+    background-size: 100% 100%
+    margin-right: 0
+    margin-bottom: 0
+    position: relative
+    &::before
+        content: "Быков Петр"
+        position: absolute
+        bottom: 0
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 260px
+        padding: 9px 15px
+        font-family: "Roboto"
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        color: white
+    &::after
+        content: ''
+        opacity: 0
+        transition: 0.3s
+        width: 260px
+        height: 200px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: rgba(0, 0, 0, 0.3)
+    &:hover::after
+        opacity: 1

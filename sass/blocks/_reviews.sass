@@ -1,0 +1,85 @@
+.reviews
+    &-block
+        position: relative
+        &__bg
+            margin-top: 70px
+            @media (max-width: 767px)
+                width: 302px
+                height: 488px
+                display: block
+                margin: 0 auto
+        &__text
+            position: absolute
+            top: 130px
+            left: 70px
+            font-family: "Roboto"
+            font-size: 23px
+            line-height: 26px
+            text-align: justify
+            letter-spacing: 0.03em
+            text-indent: 1px
+            color: rgba(0, 0, 0, 0.85)
+            max-width: 700px
+            @media (max-width: 767px)
+                text-align: center
+                max-width: 266px
+                font-size: 16px
+                line-height: 18px
+                top: 40px
+                left: 52px
+        &__date
+            color: grey
+            font-size: 18px
+            display: block
+            margin-top: 20px
+            @media (max-width: 767px)
+                margin-top: 10px
+        &__name
+            width: 138px
+            margin-top: 10px
+            text-align: center
+            font-family: "Roboto"
+            font-size: 25px
+            line-height: 29px
+            letter-spacing: 0.03em
+            text-indent: 1px
+            color: #000000
+        &__people
+            overflow: visible
+            transform: translate(155%, -50%)
+            @media (max-width: 767px)
+                transform: translate(65%, 5%)
+                & img
+                    width: 138px
+                    height: 138px
+    &-people
+        &__swiper
+            width: 244px
+            height: 244px
+            @media (max-width: 767px)
+                width: 138px
+                height: 244px
+    &-arrows
+        position: absolute
+        top: 80%
+        left: 35%
+        @media (max-width: 767px)
+            top: 83%
+            left: 32%
+        & button
+            border: none
+            background-color: transparent
+            &:focus
+                outline: none
+        &__left
+            position: absolute
+            left: -45px
+            z-index: 10
+            @media (max-width: 767px)
+                left: -65px
+        &__right
+            position: absolute
+            left: 95px
+            z-index: 10
+            @media (max-width: 767px)
+                left: 25px

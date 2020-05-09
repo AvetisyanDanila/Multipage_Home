@@ -1,0 +1,61 @@
+.footer
+    margin-top: 80px
+    height: 200px
+    background-image: url(../img/footer/bgfooter.jpg)
+    position: relative
+    font-family: "Roboto"
+    @media (max-width: 767px)
+        height: 280px
+        background-image: url(../img/footer/bgfooter_mobile.jpg)
+        background-size: cover
+        margin-top: 40px
+    &-content
+        position: absolute
+        bottom: 30px
+        @media (max-width: 767px)
+            width: 90%
+            top: 25px
+    &-logo
+        margin-right: 30px
+        order: 1
+        @media (max-width: 767px)
+            margin-right: 0
+    &-address
+        margin-right: 40px
+        @media (max-width: 767px)
+            max-width: 300px
+            font-size: 14px
+            line-height: 16px
+            text-align: center
+            margin-right: 0
+            margin-bottom: 20px
+        & img
+            margin-right: 5px
+    &-socials
+        @media (max-width: 767px)
+            margin-bottom: 33px
+        &__item
+            margin-right: 30px
+    &-rights
+        margin-right: 30px
+        font-family: "Roboto"
+        font-size: 15px
+        line-height: 20px
+        @media (max-width: 767px)
+            margin-right: 0
+            margin-bottom: 7px
+        &__sign
+            font-size: 30px
+            line-height: 30px
+            margin-right: 5px
+    &-links a
+        font-family: "Roboto"
+        font-size: 15px
+        line-height: 20px
+        text-align: center
+        color: black
+        margin-bottom: 5px
+        &:last-child
+            margin-bottom: 0
+        &:hover
+            text-decoration: none
